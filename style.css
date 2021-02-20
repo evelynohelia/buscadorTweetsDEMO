@@ -1,0 +1,77 @@
+h1{
+  text-align: center;
+  margin: 15px;
+}
+@media (min-width: 576px){
+.tweets { 
+      display: inline-grid;
+      grid-template-columns: 50% 50% ;
+
+}  
+}    
+#alltweets{
+  padding: 30px;
+}
+.tweet{
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+.tweets row {
+ display: flex;
+ margin-right: 15px;
+
+}
+.tweets column {
+  flex: 25% 75%;
+  padding: 10px;
+}
+#user{
+    font-style: italic;  
+    color: #BDBDBD;
+}
+#followers, #num_tweets {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase; 
+  margin-left: 15px;
+  color: #757575;
+
+
+}
+.tweets p{
+  margin-top:10px 
+}
+#fecha{
+  text-align: right;
+}
+.tweets button{
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #ADD8e6;
+  width: 25%;
+  text-transform: uppercase; 
+  color:#2271b3;
+  font-weight: bold;   
+  border-radius: 10px;
+}
+#seguir{
+  text-align: center;
+}
+#buscador{
+  text-align: center;
+  align-content: 
+}
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+div#tweets>div#tweet:nth-child(-n+3){ 
+  display: none;
+}
